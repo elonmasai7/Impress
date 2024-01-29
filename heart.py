@@ -1,0 +1,20 @@
+from turtle import *
+bgcolor("black")
+color("red")
+title("studdymuch")
+begin_fill()
+pensize(3)
+left(50)
+forward(133)
+circle(50, 200)
+forward(133)
+end_fill()
+
+penup()
+goto(0, -50)
+pendown()
+color("red")
+write("I Love Coding", align="center",
+      font=("Brush script TM", 45, "normal"))
+hideturtle()
+done()
